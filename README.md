@@ -1,7 +1,9 @@
 # BackgroundRemovalByModNet4OpenCV
 Background Removal by ModNet in the pure OpenCV
 
-![bgremoval-1](input.jpg "input image") ![bgremoval-2](output.jpg "output image")
+ input image               | output image
+:-------------------------:|:-------------------------:
+![bgremoval-1](input.jpg)  |![bgremoval-2](output.jpg)
 
 This project reproduces two models for background removal distributed 
 at https://github.com/ZHKKKe/MODNet under 
