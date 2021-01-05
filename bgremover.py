@@ -35,4 +35,4 @@ result = (mask * frame + (1-mask)*np.ones_like(frame)*255).astype(np.uint8)
 
 # save the result
 cv2.imwrite('output.jpg',result)
-
+cv2.imwrite('mask.png',(mask*255).astype(np.uint8))
