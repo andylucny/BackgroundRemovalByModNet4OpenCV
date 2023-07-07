@@ -4,7 +4,7 @@ import cv2
 # load image
 frame = cv2.imread('input.jpg')
 blob = cv2.resize(frame,(672,512), cv2.INTER_AREA)
-blob = blob.astype(np.float)
+blob = blob.astype(np.float32)
 blob /= 255
 blob = 2*blob-1
 channels = cv2.split(blob)
